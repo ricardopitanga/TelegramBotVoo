@@ -1,1 +1,1 @@
-print ("teste")
+print ("Teste de impressão no Python!")
