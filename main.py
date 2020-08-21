@@ -3,9 +3,10 @@ import time
 import json
 
 class TelegramBot:
-    def _init_(self):
+    def __init__(self):
         token = "1013804190:AAGZK5CCIwFackMpWbhEF3cML3YiSGyy9MY"
         self.url_base = f'https://api.telegram.org/bot{token}/'  
+    
     # Iniciar o bot
     def Iniciar(self):
         update_id = None
