@@ -13,7 +13,7 @@ import json
 #Ler as mensagens que estão chegando no boot
 # propriedade do telegram que serão utiliadas: text, first_name, id, update_id
 while True:
-    token = "1013804190:AAGZK5CCIwFackMpWbhEF3cML3YiSGyy9MY"
+    token = ""
     url_base = f'https://api.telegram.org/bot{token}/getUpdates'
     resultado = requests.get(url_base) 
     print(resultado.json())
